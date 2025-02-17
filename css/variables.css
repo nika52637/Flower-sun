@@ -1,0 +1,52 @@
+:root{
+    --primary: #FFFFFF;
+    --primary-second: #5B4A58;
+    --primary-third: #6D5B6A;
+    --neutral: #C4C4C4;
+    --neutral-second: #828282;
+    --neutral-fon: #F9F8FB;
+    --green-fon: #F0F0F0;
+    --bordo-fon: #746471;
+    --orange: #F2994A;
+    --green: #6AAE55;
+
+    --desktop: 1200px;
+    --tablet: 993px;
+    --tabletMini: 768px;
+    --mobile: 500px;
+    --mobileMax: 375px;
+
+    --roboto: 'Roboto', sans-serif;
+    --karton: 'Karton', sans-serif;
+    --literal: 'Literal', sans-serif;
+}
+
+button{
+    border: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-second);
+}
+
+.btn-green{
+    padding: 13px 60px;
+    background: var(--green);
+    border-radius: 10px;
+    color: var(--primary);
+    font-family: var(--literal);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-green:hover{
+    background: #5d994a;
+}
